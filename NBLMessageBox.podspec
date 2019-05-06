@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NBLMessageBox'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NBLMessageBox.'
+  s.summary          = '用于给用户提示信息。Show box to tell user message.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+给用户提示信息的窗口，包括Loading框。Show box to tell user message.
                        DESC
 
-  s.homepage         = 'https://github.com/杨建红/NBLMessageBox'
+  s.homepage         = 'https://github.com/yjh4866/NBLMessageBox'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '杨建红' => 'yangjianhong@hengtongjituan.cn' }
-  s.source           = { :git => 'https://github.com/杨建红/NBLMessageBox.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { '杨建红' => 'yjh4866@163.com' }
+  s.source           = { :git => 'https://github.com/yjh4866/NBLMessageBox.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://blog.csdn.net/yjh4866'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'NBLMessageBox/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'NBLMessageBox' => ['NBLMessageBox/Assets/*.png']
-  # }
+  s.resource_bundles = {
+   'NBLMessageBox' => ['NBLMessageBox/Assets/*.{xib}']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'NBLMessageBox/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -7,6 +7,7 @@
 //
 
 #import "NBLViewController.h"
+#import <NBLMessageBox/NBLMessageBoxHeader.h>
 
 @interface NBLViewController ()
 
@@ -24,6 +25,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)clickShowMessage:(id)sender
+{
+    NBLShowSuccessMsg(@"提示了这个信息");
+}
+- (IBAction)clickShowLoading:(id)sender
+{
+    [NBLMessageBox showLoading];
+    [NBLMessageBox closeWithDelay:2];
 }
 
 @end

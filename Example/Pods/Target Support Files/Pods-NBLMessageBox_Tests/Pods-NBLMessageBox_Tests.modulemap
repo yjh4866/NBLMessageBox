@@ -1,0 +1,6 @@
+framework module Pods_NBLMessageBox_Tests {
+  umbrella header "Pods-NBLMessageBox_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_NBLMessageBox_Example {
+  umbrella header "Pods-NBLMessageBox_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
