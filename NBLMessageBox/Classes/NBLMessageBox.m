@@ -25,34 +25,9 @@ static NBLMessageBox *g_messageBox = nil;
 {
     self = [super initWithCoder:coder];
     if (self) {
-        self.style = NBLMessageBoxStyle_Dark;
-        // KVO
-        [self addObserver:self forKeyPath:@"style"
-                  options:NSKeyValueObservingOptionNew context:nil];
+        [self setStyle:NBLMessageBoxStyle_Dark];
     }
     return self;
-}
-
-- (void)dealloc
-{
-    [self removeObserver:self forKeyPath:@"style"];
-}
-
-- (void)observeValueForKeyPath:(nullable NSString *)keyPath ofObject:(nullable id)object change:(nullable NSDictionary<NSKeyValueChangeKey, id> *)change context:(nullable void *)context
-{
-    if ([keyPath isEqualToString:@"style"]) {
-        if (self.style == NBLMessageBoxStyle_Dark) {
-            self.comboBoxView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.6f];
-            self.loadingBoxView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.6f];
-            self.activityView.activityIndicatorViewStyle = UIActivityIndicatorViewStyleWhite;
-            self.labelMessage.textColor = [UIColor whiteColor];
-        } else if (self.style == NBLMessageBoxStyle_Light) {
-            self.comboBoxView.backgroundColor = [UIColor colorWithWhite:1 alpha:0.6f];
-            self.loadingBoxView.backgroundColor = [UIColor colorWithWhite:1 alpha:0.6f];
-            self.activityView.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
-            self.labelMessage.textColor = [UIColor blackColor];
-        }
-    }
 }
 
 - (void)awakeFromNib
@@ -103,6 +78,30 @@ static NBLMessageBox *g_messageBox = nil;
         [g_messageBox removeFromSuperview];
         g_messageBox = nil;
     });
+}
+
+- (NBLMessageBox *)setStyle:(NBLMessageBoxStyle)style
+{
+    // 暗色风格
+    if (style == NBLMessageBoxStyle_Dark) {
+        self.comboBoxView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.6f];
+        self.loadingBoxView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.6f];
+        self.activityView.activityIndicatorViewStyle = UIActivityIndicatorViewStyleWhite;
+        self.labelMessage.textColor = [UIColor whiteColor];
+    }
+    // 亮色风格
+    else if (style == NBLMessageBoxStyle_Light) {
+        self.comboBoxView.backgroundColor = [UIColor colorWithWhite:1 alpha:0.6f];
+        self.loadingBoxView.backgroundColor = [UIColor colorWithWhite:1 alpha:0.6f];
+        self.activityView.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
+        self.labelMessage.textColor = [UIColor blackColor];
+    }
+    return self;
+}
+- (NBLMessageBox *)closeWithDelay:(NSTimeInterval)delay
+{
+    [NBLMessageBox closeWithDelay:delay];
+    return self;
 }
 
 

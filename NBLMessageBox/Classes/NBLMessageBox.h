@@ -15,13 +15,14 @@ typedef NS_ENUM(NSUInteger, NBLMessageBoxStyle) {
 
 @interface NBLMessageBox : UIView
 
-@property (nonatomic, assign) NBLMessageBoxStyle style;
-
 + (NBLMessageBox *)showLoading;
 + (NBLMessageBox *)showMessage:(NSString *)content;
 + (NBLMessageBox *)showLoadingWithMessage:(NSString *)content;
 
 + (void)close;
 + (void)closeWithDelay:(NSTimeInterval)delay;
+
+- (NBLMessageBox *)setStyle:(NBLMessageBoxStyle)style;
+- (NBLMessageBox *)closeWithDelay:(NSTimeInterval)delay;
 
 @end

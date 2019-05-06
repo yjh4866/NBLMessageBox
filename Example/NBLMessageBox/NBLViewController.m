@@ -29,14 +29,11 @@
 
 - (IBAction)clickShowMessage:(id)sender
 {
-    NBLMessageBox *messageBox = NBLShowSuccessMsg(@"提示了这个信息");
-    messageBox.style = NBLMessageBoxStyle_Dark;
+    [NBLShowSuccessMsg(@"提示了这个信息") setStyle:NBLMessageBoxStyle_Dark];
 }
 - (IBAction)clickShowLoading:(id)sender
 {
-    NBLMessageBox *messageBox = NBLShowTitleLoading(@"提示");
-    messageBox.style = NBLMessageBoxStyle_Light;
-    [NBLMessageBox closeWithDelay:1];
+    [[NBLShowLoadingWithMsg(@"登录中...") setStyle:NBLMessageBoxStyle_Dark] closeWithDelay:1];
 }
 
 @end

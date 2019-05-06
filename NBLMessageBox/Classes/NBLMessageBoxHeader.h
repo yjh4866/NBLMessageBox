@@ -11,12 +11,12 @@
 #import "NBLMessageBox.h"
 
 
-#define NBLShowLoadingWithMsg(msg) [NBLMessageBox showLoadingWithMessage:msg];
-#define NBLShowLoading        [NBLMessageBox showLoading];
-#define NBLCloseLoading       [NBLMessageBox close];
+#define NBLShowLoadingWithMsg(msg) [NBLMessageBox showLoadingWithMessage:msg]
+#define NBLShowLoading        [NBLMessageBox showLoading]
+#define NBLCloseLoading       [NBLMessageBox close]
 
-#define NBLShowSuccessMsg(msg) [NBLMessageBox showMessage:msg];[NBLMessageBox closeWithDelay:1];
-#define NBLShowErrorMsg(msg)   [NBLMessageBox showMessage:msg];[NBLMessageBox closeWithDelay:1];
+#define NBLShowSuccessMsg(msg) [[NBLMessageBox showMessage:msg] closeWithDelay:1]
+#define NBLShowErrorMsg(msg)   [[NBLMessageBox showMessage:msg] closeWithDelay:1]
 #define NBLShowError(error)    NBLShowErrorMsg(error.localizedDescription)
 
 
