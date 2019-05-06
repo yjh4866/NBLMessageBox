@@ -22,7 +22,7 @@ pod 'NBLMessageBox'
 
 ## Author
 
-杨建红, yangjianhong@hengtongjituan.cn
+杨建红, yjh4866@163.com
 
 ## License
 
