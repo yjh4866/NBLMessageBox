@@ -29,12 +29,14 @@
 
 - (IBAction)clickShowMessage:(id)sender
 {
-    NBLShowSuccessMsg(@"提示了这个信息");
+    NBLMessageBox *messageBox = NBLShowSuccessMsg(@"提示了这个信息");
+    messageBox.style = NBLMessageBoxStyle_Dark;
 }
 - (IBAction)clickShowLoading:(id)sender
 {
-    [NBLMessageBox showLoading];
-    [NBLMessageBox closeWithDelay:2];
+    NBLMessageBox *messageBox = NBLShowTitleLoading(@"提示");
+    messageBox.style = NBLMessageBoxStyle_Light;
+    [NBLMessageBox closeWithDelay:1];
 }
 
 @end

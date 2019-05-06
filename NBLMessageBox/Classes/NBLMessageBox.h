@@ -8,11 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSUInteger, NBLMessageBoxStyle) {
+    NBLMessageBoxStyle_Dark = 1,
+    NBLMessageBoxStyle_Light = 2,
+};
+
 @interface NBLMessageBox : UIView
 
-+ (void)showLoading;
-+ (void)showMessage:(NSString *)content;
-+ (void)showLoadingWithMessage:(NSString *)content;
+@property (nonatomic, assign) NBLMessageBoxStyle style;
+
++ (NBLMessageBox *)showLoading;
++ (NBLMessageBox *)showMessage:(NSString *)content;
++ (NBLMessageBox *)showLoadingWithMessage:(NSString *)content;
 
 + (void)close;
 + (void)closeWithDelay:(NSTimeInterval)delay;

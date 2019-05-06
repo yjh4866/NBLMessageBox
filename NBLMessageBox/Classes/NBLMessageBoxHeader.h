@@ -11,9 +11,9 @@
 #import "NBLMessageBox.h"
 
 
-#define NBLShowTitleLoading(title) [NBLMessageBox showLoadingWithMessage:title];
+#define NBLShowLoadingWithMsg(msg) [NBLMessageBox showLoadingWithMessage:msg];
 #define NBLShowLoading        [NBLMessageBox showLoading];
-#define NBLHideLoading        [NBLMessageBox close];
+#define NBLCloseLoading       [NBLMessageBox close];
 
 #define NBLShowSuccessMsg(msg) [NBLMessageBox showMessage:msg];[NBLMessageBox closeWithDelay:1];
 #define NBLShowErrorMsg(msg)   [NBLMessageBox showMessage:msg];[NBLMessageBox closeWithDelay:1];

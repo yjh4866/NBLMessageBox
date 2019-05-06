@@ -11,7 +11,7 @@
 static NBLMessageBox *g_messageBox = nil;
 
 @interface NBLMessageBox ()
-@property (weak, nonatomic) IBOutlet UIView *blendBoxView;
+@property (weak, nonatomic) IBOutlet UIView *comboBoxView;
 @property (weak, nonatomic) IBOutlet UIView *loadingBoxView;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityView;
 @property (weak, nonatomic) IBOutlet UILabel *labelMessage;
@@ -21,23 +21,58 @@ static NBLMessageBox *g_messageBox = nil;
 
 @implementation NBLMessageBox
 
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        self.style = NBLMessageBoxStyle_Dark;
+        // KVO
+        [self addObserver:self forKeyPath:@"style"
+                  options:NSKeyValueObservingOptionNew context:nil];
+    }
+    return self;
+}
+
+- (void)dealloc
+{
+    [self removeObserver:self forKeyPath:@"style"];
+}
+
+- (void)observeValueForKeyPath:(nullable NSString *)keyPath ofObject:(nullable id)object change:(nullable NSDictionary<NSKeyValueChangeKey, id> *)change context:(nullable void *)context
+{
+    if ([keyPath isEqualToString:@"style"]) {
+        if (self.style == NBLMessageBoxStyle_Dark) {
+            self.comboBoxView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.6f];
+            self.loadingBoxView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.6f];
+            self.activityView.activityIndicatorViewStyle = UIActivityIndicatorViewStyleWhite;
+            self.labelMessage.textColor = [UIColor whiteColor];
+        } else if (self.style == NBLMessageBoxStyle_Light) {
+            self.comboBoxView.backgroundColor = [UIColor colorWithWhite:1 alpha:0.6f];
+            self.loadingBoxView.backgroundColor = [UIColor colorWithWhite:1 alpha:0.6f];
+            self.activityView.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
+            self.labelMessage.textColor = [UIColor blackColor];
+        }
+    }
+}
+
 - (void)awakeFromNib
 {
     [super awakeFromNib];
     // 圆角矩形框
-    self.blendBoxView.layer.cornerRadius = 5.0f;
+    self.comboBoxView.layer.cornerRadius = 5.0f;
     self.loadingBoxView.layer.cornerRadius = 5.0f;
 }
 
 
 #pragma mark - Public
 
-+ (void)showLoading
++ (NBLMessageBox *)showLoading
 {
     NBLMessageBox *messageBox = [NBLMessageBox showMessageBox];
-    [messageBox.blendBoxView removeFromSuperview];
+    [messageBox.comboBoxView removeFromSuperview];
+    return messageBox;
 }
-+ (void)showMessage:(NSString *)content
++ (NBLMessageBox *)showMessage:(NSString *)content
 {
     NBLMessageBox *messageBox = [NBLMessageBox showMessageBox];
     [messageBox.loadingBoxView removeFromSuperview];
@@ -46,13 +81,15 @@ static NBLMessageBox *g_messageBox = nil;
     // 移除加载指示视图
     [messageBox.activityView removeFromSuperview];
     messageBox.constraintMessageTop.constant = 13.0f;
+    return messageBox;
 }
-+ (void)showLoadingWithMessage:(NSString *)content
++ (NBLMessageBox *)showLoadingWithMessage:(NSString *)content
 {
     NBLMessageBox *messageBox = [NBLMessageBox showMessageBox];
     [messageBox.loadingBoxView removeFromSuperview];
     // 显示文本
     messageBox.labelMessage.text = content;
+    return messageBox;
 }
 
 + (void)close

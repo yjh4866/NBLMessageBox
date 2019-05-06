@@ -307,7 +307,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/NBLMessageBox/NBLMessageBox.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -318,7 +318,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2BB03CEC8E93C65F7840AADE /* [CP] Check Pods Manifest.lock */ = {
