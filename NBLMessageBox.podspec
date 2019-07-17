@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NBLMessageBox'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '用于给用户提示信息。Show box to tell user message.'
 
 # This description is used to generate tags and improve search results.

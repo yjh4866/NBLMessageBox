@@ -248,7 +248,7 @@
 				ORGANIZATIONNAME = "杨建红";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = NZBNK9L6AA;
+						DevelopmentTeam = Y3UD3PVDBM;
 					};
 					6003F5AD195388D20070C39A = {
 						DevelopmentTeam = NZBNK9L6AA;
@@ -304,15 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/NBLMessageBox/NBLMessageBox.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NBLMessageBox.framework",
 			);
@@ -502,7 +498,7 @@
 			baseConfigurationReference = A8F796C15E3BA9A839350FA8 /* Pods-NBLMessageBox_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NZBNK9L6AA;
+				DEVELOPMENT_TEAM = Y3UD3PVDBM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NBLMessageBox/NBLMessageBox-Prefix.pch";
 				INFOPLIST_FILE = "NBLMessageBox/NBLMessageBox-Info.plist";
@@ -519,7 +515,7 @@
 			baseConfigurationReference = 4A0557F714C49A81138897BE /* Pods-NBLMessageBox_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NZBNK9L6AA;
+				DEVELOPMENT_TEAM = Y3UD3PVDBM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NBLMessageBox/NBLMessageBox-Prefix.pch";
 				INFOPLIST_FILE = "NBLMessageBox/NBLMessageBox-Info.plist";

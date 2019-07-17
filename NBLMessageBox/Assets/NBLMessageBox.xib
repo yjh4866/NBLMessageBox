@@ -41,9 +41,26 @@
                         <constraint firstItem="I89-YV-H1O" firstAttribute="leading" secondItem="FfJ-Xg-7kd" secondAttribute="leading" constant="13" id="sMs-sM-bWc"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TrN-LE-1Qr">
+                    <rect key="frame" x="127.5" y="273.5" width="120" height="120"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="gZH-Cv-oEC">
+                            <rect key="frame" x="41.5" y="41.5" width="37" height="37"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="gZH-Cv-oEC" firstAttribute="centerY" secondItem="TrN-LE-1Qr" secondAttribute="centerY" id="8lQ-Tf-Ogy"/>
+                        <constraint firstItem="gZH-Cv-oEC" firstAttribute="centerX" secondItem="TrN-LE-1Qr" secondAttribute="centerX" id="dUU-ju-MBg"/>
+                        <constraint firstAttribute="height" constant="120" id="hWM-IE-LRT"/>
+                        <constraint firstAttribute="width" constant="120" id="tRW-NF-eAP"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="TrN-LE-1Qr" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bVS-KG-vbd"/>
+                <constraint firstItem="TrN-LE-1Qr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dtS-GG-sVq"/>
                 <constraint firstItem="FfJ-Xg-7kd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jk7-5m-xcc"/>
                 <constraint firstItem="FfJ-Xg-7kd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qII-id-YzD"/>
             </constraints>
@@ -56,6 +73,7 @@
                 <outlet property="comboBoxView" destination="FfJ-Xg-7kd" id="2O5-uG-Jy3"/>
                 <outlet property="constraintMessageTop" destination="XfY-kP-ld0" id="pD6-eb-VC4"/>
                 <outlet property="labelMessage" destination="I89-YV-H1O" id="3h4-Qc-CFF"/>
+                <outlet property="loadingBoxView" destination="TrN-LE-1Qr" id="cIx-eQ-oS6"/>
             </connections>
         </view>
     </objects>

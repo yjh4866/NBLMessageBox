@@ -7,190 +7,169 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0063589FEF7365D5F76B29836205F9E1 /* NBLMessageBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E5036A89C7C600368E2D65C4281CDF1 /* NBLMessageBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		106CEA04E09868911C0EB1B9E295B146 /* Pods-NBLMessageBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8AC3E8B6D14434DA7440329948F7B2 /* Pods-NBLMessageBox_Example-dummy.m */; };
-		11DBB4A06A3FAEC492061632EFAE3C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1C75840486FE45E7D37458C9B83F28DF /* Pods-NBLMessageBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFEE1A931386E982AA15D8C00BAA0D /* Pods-NBLMessageBox_Tests-dummy.m */; };
-		25FBF01559DF5233AD779BCDF1D2E127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4E9D9D5ED41574957B5587EE1EAD3720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5F24453E19195874AE50177A32A17E8A /* NBLMessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C945A4BC6CC42553E6C7ECC1A4F0D7B /* NBLMessageBox.m */; };
-		622ABF444AE14D7CA48B0F88454E5C24 /* NBLMessageBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2CFDA7B70D90EEE1BAF8E168E52AC5 /* NBLMessageBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78EBE261CF3DB744A03F930DEC279051 /* Pods-NBLMessageBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20594EFE41C7E5C8D6D069686430B4E9 /* Pods-NBLMessageBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95D2A78C081336683C10C23112581FC1 /* NBLMessageBoxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0840ED1451C1DD5FA728C21CFE098D35 /* NBLMessageBoxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		972593B0B7B4CA2A28E33EA9EA8B053F /* Pods-NBLMessageBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 705F9875A3DF1E0E003D54937B2B7B0F /* Pods-NBLMessageBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9E23A1C9EBAB8DE5D7A426E20466C84 /* NBLMessageBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = C58CCA95B0516E24E84E5E0CB7F64EA3 /* NBLMessageBox.xib */; };
-		C06DD2B1764A8E8745CCE983DEA5E157 /* NBLMessageBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 619C10D7130DAEB59F66863D0C44BA70 /* NBLMessageBox.bundle */; };
-		F62831154960B6FE6B77D8CA1369F49E /* NBLMessageBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEB5C0FFAB67848EDB4F5237B1FAD6 /* NBLMessageBox-dummy.m */; };
+		353B513D6A579E6F79CD9613F3A73FAA /* NBLMessageBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F707F663E132A077941B9A6093E32E25 /* NBLMessageBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35E1C9D693DA15074858D19DED106FFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4E9A062D815EF289480956DA3F1343EE /* NBLMessageBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F46975540D305C37FF4BD90C19B9ABB /* NBLMessageBox.xib */; };
+		5573CA158365E6B51488CFDBE9A92CD2 /* Pods-NBLMessageBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 769843D4A44B83B066E1675E0A1B1051 /* Pods-NBLMessageBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A3DE60AC4991B125E6B01B3965607F8 /* NBLMessageBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA65310A6E018BD437539DDAF02D2C4 /* NBLMessageBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E68C86F3D62520A83E97777E73C879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B0100C04B6617A1FC31ABA0D7323297D /* Pods-NBLMessageBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD00D176CBB09430A8F9689881A7609 /* Pods-NBLMessageBox_Example-dummy.m */; };
+		B998C767574045F9A610D86E62BF50E5 /* NBLMessageBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D06C75068520DF9AA2B29653988B571B /* NBLMessageBox.bundle */; };
+		BD41C277B1A8CDCC290412A4F5A30A3E /* NBLMessageBoxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0622219657739F478A5AFC07013BD3 /* NBLMessageBoxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C23D1FD30CD07E0B28C9F9EBF740F3C9 /* Pods-NBLMessageBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C485E0433068E5494EE305FC85BDD06 /* Pods-NBLMessageBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA1E428BBA3B25F3C6BE8704D89B6B48 /* NBLMessageBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475AF48BDE8CDC828C475F2AB3BE410 /* NBLMessageBox-dummy.m */; };
+		CE9CB525A8E5AB430750E02C1B10461E /* NBLMessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 416E61A6C1F843828BF71EBBB1232696 /* NBLMessageBox.m */; };
+		D55D033FD62E5E353396ECDB1FE89C94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DBEB7777298F2696B2409108D655A5EA /* Pods-NBLMessageBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C8930882FF8CFD444EB0EAADEEEC88 /* Pods-NBLMessageBox_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		45A47A6A37D2406B6A94C8FE9F8C0B89 /* PBXContainerItemProxy */ = {
+		5B866B6A19B9CBC7D7AB75F9A4A462C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4D98298CF3DEB9DFFE99791792691535;
-			remoteInfo = NBLMessageBox;
-		};
-		64D531C1FEC86359B481AA19F34370A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D1B127F34A9A6C09CC4A71AC9888ED49;
+			remoteGlobalIDString = 408541F09B421848180605C6F0E4448C;
 			remoteInfo = "Pods-NBLMessageBox_Example";
 		};
-		D59E928CE70BFA44B31563D6EDE2EE3B /* PBXContainerItemProxy */ = {
+		910A39AF2C546FDEB5C68C1311E1844D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F655F935ED5A84C2F18A5BA28BB63C29;
+			remoteGlobalIDString = 8A05E5292116AB00110FF2C575B47E11;
 			remoteInfo = "NBLMessageBox-NBLMessageBox";
+		};
+		E75B4C75C1AE70CB4D69F3177EDD5235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B3C3C614D003C3B28F21533A81D297E;
+			remoteInfo = NBLMessageBox;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06FEB5C0FFAB67848EDB4F5237B1FAD6 /* NBLMessageBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NBLMessageBox-dummy.m"; sourceTree = "<group>"; };
-		0840ED1451C1DD5FA728C21CFE098D35 /* NBLMessageBoxHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBLMessageBoxHeader.h; path = NBLMessageBox/Classes/NBLMessageBoxHeader.h; sourceTree = "<group>"; };
-		0E5036A89C7C600368E2D65C4281CDF1 /* NBLMessageBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NBLMessageBox-umbrella.h"; sourceTree = "<group>"; };
-		0FFA318DEDA7BFC8AB07C55039B1F7DE /* NBLMessageBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NBLMessageBox-prefix.pch"; sourceTree = "<group>"; };
-		10362E7756E7FDE87E2E6E6EEE1EFFF9 /* Pods-NBLMessageBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBLMessageBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		17BFF246B0885A5CEEE1204303AEDE46 /* Pods_NBLMessageBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NBLMessageBox_Tests.framework; path = "Pods-NBLMessageBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C7BA7E02B60117197D7A415BA48DD76 /* Pods-NBLMessageBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBLMessageBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1EDD63321FEA882909AD5C825B60E985 /* Pods-NBLMessageBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBLMessageBox_Tests-Info.plist"; sourceTree = "<group>"; };
-		20594EFE41C7E5C8D6D069686430B4E9 /* Pods-NBLMessageBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NBLMessageBox_Example-umbrella.h"; sourceTree = "<group>"; };
-		250A03807C53E53A626342CE9AB1A3EB /* ResourceBundle-NBLMessageBox-NBLMessageBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NBLMessageBox-NBLMessageBox-Info.plist"; sourceTree = "<group>"; };
-		2D8AC3E8B6D14434DA7440329948F7B2 /* Pods-NBLMessageBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NBLMessageBox_Example-dummy.m"; sourceTree = "<group>"; };
-		2FF0850CAA02281989803B3AD1C546B9 /* Pods_NBLMessageBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NBLMessageBox_Example.framework; path = "Pods-NBLMessageBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C8930882FF8CFD444EB0EAADEEEC88 /* Pods-NBLMessageBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NBLMessageBox_Tests-dummy.m"; sourceTree = "<group>"; };
+		020011819391D08D701AEBB0E6B68AD1 /* NBLMessageBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NBLMessageBox-prefix.pch"; sourceTree = "<group>"; };
+		0C1EEB570E3060F7F69B45884A3BDB41 /* Pods-NBLMessageBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NBLMessageBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CA65310A6E018BD437539DDAF02D2C4 /* NBLMessageBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NBLMessageBox-umbrella.h"; sourceTree = "<group>"; };
+		2C5EDD59DDD14B706F6E6DD0BF33F7EC /* NBLMessageBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NBLMessageBox.framework; path = NBLMessageBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34290106EA9D561F1F224176E46CB385 /* Pods-NBLMessageBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBLMessageBox_Example-Info.plist"; sourceTree = "<group>"; };
-		34B7542702ED1654FFA7EAAAE00E41EF /* Pods-NBLMessageBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NBLMessageBox_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3ABAC264975309666EF01E3A8AE24DFE /* NBLMessageBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NBLMessageBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		418B331B633A23679030E74696EFB26B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		619C10D7130DAEB59F66863D0C44BA70 /* NBLMessageBox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NBLMessageBox.bundle; path = "NBLMessageBox-NBLMessageBox.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67D5782CCF8EE7CFC2F5EEF7DB009E87 /* Pods-NBLMessageBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBLMessageBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		68AD06BBD8BC389A88C9CF17A35B4E39 /* Pods-NBLMessageBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBLMessageBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6B2CFDA7B70D90EEE1BAF8E168E52AC5 /* NBLMessageBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBLMessageBox.h; path = NBLMessageBox/Classes/NBLMessageBox.h; sourceTree = "<group>"; };
-		6C945A4BC6CC42553E6C7ECC1A4F0D7B /* NBLMessageBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBLMessageBox.m; path = NBLMessageBox/Classes/NBLMessageBox.m; sourceTree = "<group>"; };
-		6D0D9CC6F7131F153176B84980295E2F /* NBLMessageBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NBLMessageBox-Info.plist"; sourceTree = "<group>"; };
-		6FFFEE1A931386E982AA15D8C00BAA0D /* Pods-NBLMessageBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NBLMessageBox_Tests-dummy.m"; sourceTree = "<group>"; };
-		705F9875A3DF1E0E003D54937B2B7B0F /* Pods-NBLMessageBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NBLMessageBox_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7F97BA7B8EC9B82A789E61BB739C782F /* Pods-NBLMessageBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NBLMessageBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		899A981E1D18ABF802FB91A7D8F464C7 /* NBLMessageBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NBLMessageBox.framework; path = NBLMessageBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B215DF3FE7B4B4A4E94413A4CB092E /* Pods-NBLMessageBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NBLMessageBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		95395D306327236866CBAD222ADBA3C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3A8B55271D1B262CD751B2F524C3CC3E /* Pods-NBLMessageBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBLMessageBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3FF29E177A713B7F4E1B4F18C009DAD0 /* Pods-NBLMessageBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBLMessageBox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		416E61A6C1F843828BF71EBBB1232696 /* NBLMessageBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBLMessageBox.m; path = NBLMessageBox/Classes/NBLMessageBox.m; sourceTree = "<group>"; };
+		449C3EBEAE5EB24C6A7B7CA5D62FCA67 /* NBLMessageBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NBLMessageBox.modulemap; sourceTree = "<group>"; };
+		47BD0C961159A4F07C2404F92ABDD0D0 /* Pods-NBLMessageBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBLMessageBox_Example-Info.plist"; sourceTree = "<group>"; };
+		4846BC4715E4556E231421CB6F9288D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5475AF48BDE8CDC828C475F2AB3BE410 /* NBLMessageBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NBLMessageBox-dummy.m"; sourceTree = "<group>"; };
+		6214DB15F4CB79BF48AF0976F701ABE2 /* NBLMessageBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NBLMessageBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F46975540D305C37FF4BD90C19B9ABB /* NBLMessageBox.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NBLMessageBox.xib; path = NBLMessageBox/Assets/NBLMessageBox.xib; sourceTree = "<group>"; };
+		769843D4A44B83B066E1675E0A1B1051 /* Pods-NBLMessageBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NBLMessageBox_Example-umbrella.h"; sourceTree = "<group>"; };
+		7A6E8A8C80B7769ECBEBC9FA9D18AEA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		82F4C6FE9DB5A4F1C96E3EC873F061EF /* Pods-NBLMessageBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBLMessageBox_Tests-Info.plist"; sourceTree = "<group>"; };
+		8BD00D176CBB09430A8F9689881A7609 /* Pods-NBLMessageBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NBLMessageBox_Example-dummy.m"; sourceTree = "<group>"; };
+		8C485E0433068E5494EE305FC85BDD06 /* Pods-NBLMessageBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NBLMessageBox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		97A2F9A23A7F491352015F8511E93C0F /* Pods-NBLMessageBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NBLMessageBox_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BAD48A5AE1ACA3F8945ED52F91E01CF4 /* NBLMessageBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NBLMessageBox.modulemap; sourceTree = "<group>"; };
-		C16E0653AE7AFB0A10BA51536630ED0D /* Pods-NBLMessageBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NBLMessageBox_Example.modulemap"; sourceTree = "<group>"; };
-		C43B19983FE09CEBB06C21574BF25208 /* Pods-NBLMessageBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NBLMessageBox_Tests.modulemap"; sourceTree = "<group>"; };
-		C58CCA95B0516E24E84E5E0CB7F64EA3 /* NBLMessageBox.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NBLMessageBox.xib; path = NBLMessageBox/Assets/NBLMessageBox.xib; sourceTree = "<group>"; };
-		E1A25FE8D947FB1D7E743E83F5AA9926 /* Pods-NBLMessageBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBLMessageBox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F303141955E571DF49352C8576015BCD /* Pods-NBLMessageBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBLMessageBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FA3A9F2D33784CF314B96F1CEA511798 /* NBLMessageBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NBLMessageBox.xcconfig; sourceTree = "<group>"; };
+		B684AB39872AD4FA5A2FB93E22E5493C /* NBLMessageBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NBLMessageBox.xcconfig; sourceTree = "<group>"; };
+		B7F324E23A09915D86D1DB5AF84EB821 /* Pods-NBLMessageBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBLMessageBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3F87441573BE8096AB9A21E5DDD577B /* Pods-NBLMessageBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBLMessageBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C98748AF83CB58E90C1E59733E4F1077 /* ResourceBundle-NBLMessageBox-NBLMessageBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NBLMessageBox-NBLMessageBox-Info.plist"; sourceTree = "<group>"; };
+		CABE4C7D68FF77E20566853E58D7E90B /* Pods-NBLMessageBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NBLMessageBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF7765E9BD13D4FC582D4034AF370BA2 /* Pods_NBLMessageBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NBLMessageBox_Example.framework; path = "Pods-NBLMessageBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06C75068520DF9AA2B29653988B571B /* NBLMessageBox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NBLMessageBox.bundle; path = "NBLMessageBox-NBLMessageBox.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E485C39109429EC12F0A4847C23A39BF /* Pods_NBLMessageBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NBLMessageBox_Tests.framework; path = "Pods-NBLMessageBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5682283B727D7C9AD92B172B3A5E38 /* Pods-NBLMessageBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NBLMessageBox_Example.modulemap"; sourceTree = "<group>"; };
+		F2B8ED10124192A08A9CB4FBBBE44B10 /* Pods-NBLMessageBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBLMessageBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3B05CEF5572F3831D9946BA941CBD7E /* Pods-NBLMessageBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NBLMessageBox_Tests.modulemap"; sourceTree = "<group>"; };
+		F707F663E132A077941B9A6093E32E25 /* NBLMessageBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBLMessageBox.h; path = NBLMessageBox/Classes/NBLMessageBox.h; sourceTree = "<group>"; };
+		F8C08A674AC517B3E66DD4E232CC891F /* NBLMessageBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NBLMessageBox-Info.plist"; sourceTree = "<group>"; };
+		FA0622219657739F478A5AFC07013BD3 /* NBLMessageBoxHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBLMessageBoxHeader.h; path = NBLMessageBox/Classes/NBLMessageBoxHeader.h; sourceTree = "<group>"; };
+		FA2474B9131DB426A6560B3A9C6467AB /* Pods-NBLMessageBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBLMessageBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06DCF6EAEC69F55B8610E4F6F195A68C /* Frameworks */ = {
+		5ABCEE264E09EC8E9C73735A2D25C27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E1C9D693DA15074858D19DED106FFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7567F3E42F64961DEC3131CE28E012A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E68C86F3D62520A83E97777E73C879 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19451C9881CF5DFE31A25A8A53D588A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DD7518B29CA69DE8A8C405E2C441877 /* Frameworks */ = {
+		D5E22F640384CD97A495682F7DC43A5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25FBF01559DF5233AD779BCDF1D2E127 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		947AB2C1BF89EFC8CAEB89B877AD71C9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E9D9D5ED41574957B5587EE1EAD3720 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAD8C461394893A6CA1E6D3673A1E748 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11DBB4A06A3FAEC492061632EFAE3C0F /* Foundation.framework in Frameworks */,
+				D55D033FD62E5E353396ECDB1FE89C94 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08037A90E3DC474CFAAF31D94DF959E4 /* NBLMessageBox */ = {
+		2297C2BAD1C5839867B0D768561FD16F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6B2CFDA7B70D90EEE1BAF8E168E52AC5 /* NBLMessageBox.h */,
-				6C945A4BC6CC42553E6C7ECC1A4F0D7B /* NBLMessageBox.m */,
-				0840ED1451C1DD5FA728C21CFE098D35 /* NBLMessageBoxHeader.h */,
-				F376373E767F1F4BF518DD55C96C0E5F /* Pod */,
-				611D337CEADE90593C0DB0E1015D1586 /* Resources */,
-				687BA1608C649933A5C384141EBBDE6F /* Support Files */,
+				4846BC4715E4556E231421CB6F9288D4 /* LICENSE */,
+				6214DB15F4CB79BF48AF0976F701ABE2 /* NBLMessageBox.podspec */,
+				7A6E8A8C80B7769ECBEBC9FA9D18AEA7 /* README.md */,
 			);
-			name = NBLMessageBox;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		39DE9D966CF23D47F3C47CED085A8342 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				08037A90E3DC474CFAAF31D94DF959E4 /* NBLMessageBox */,
+				D602B64260FA806D8287AFCA6ED0829B /* NBLMessageBox */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		41CC4E0134007BD59EEE40DB17670AF1 /* Targets Support Files */ = {
+		41B98F58429A466F0CE493DF375064C7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				83B403BE7E88D49F3BC591B72566B580 /* Pods-NBLMessageBox_Example */,
-				DA9D61EF5C86E91ABE49EB3D09D7C2A4 /* Pods-NBLMessageBox_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		611D337CEADE90593C0DB0E1015D1586 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C58CCA95B0516E24E84E5E0CB7F64EA3 /* NBLMessageBox.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		687BA1608C649933A5C384141EBBDE6F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BAD48A5AE1ACA3F8945ED52F91E01CF4 /* NBLMessageBox.modulemap */,
-				FA3A9F2D33784CF314B96F1CEA511798 /* NBLMessageBox.xcconfig */,
-				06FEB5C0FFAB67848EDB4F5237B1FAD6 /* NBLMessageBox-dummy.m */,
-				6D0D9CC6F7131F153176B84980295E2F /* NBLMessageBox-Info.plist */,
-				0FFA318DEDA7BFC8AB07C55039B1F7DE /* NBLMessageBox-prefix.pch */,
-				0E5036A89C7C600368E2D65C4281CDF1 /* NBLMessageBox-umbrella.h */,
-				250A03807C53E53A626342CE9AB1A3EB /* ResourceBundle-NBLMessageBox-NBLMessageBox-Info.plist */,
+				449C3EBEAE5EB24C6A7B7CA5D62FCA67 /* NBLMessageBox.modulemap */,
+				B684AB39872AD4FA5A2FB93E22E5493C /* NBLMessageBox.xcconfig */,
+				5475AF48BDE8CDC828C475F2AB3BE410 /* NBLMessageBox-dummy.m */,
+				F8C08A674AC517B3E66DD4E232CC891F /* NBLMessageBox-Info.plist */,
+				020011819391D08D701AEBB0E6B68AD1 /* NBLMessageBox-prefix.pch */,
+				1CA65310A6E018BD437539DDAF02D2C4 /* NBLMessageBox-umbrella.h */,
+				C98748AF83CB58E90C1E59733E4F1077 /* ResourceBundle-NBLMessageBox-NBLMessageBox-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/NBLMessageBox";
 			sourceTree = "<group>";
 		};
-		83B403BE7E88D49F3BC591B72566B580 /* Pods-NBLMessageBox_Example */ = {
+		41CC4E0134007BD59EEE40DB17670AF1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C16E0653AE7AFB0A10BA51536630ED0D /* Pods-NBLMessageBox_Example.modulemap */,
-				7F97BA7B8EC9B82A789E61BB739C782F /* Pods-NBLMessageBox_Example-acknowledgements.markdown */,
-				68AD06BBD8BC389A88C9CF17A35B4E39 /* Pods-NBLMessageBox_Example-acknowledgements.plist */,
-				2D8AC3E8B6D14434DA7440329948F7B2 /* Pods-NBLMessageBox_Example-dummy.m */,
-				34B7542702ED1654FFA7EAAAE00E41EF /* Pods-NBLMessageBox_Example-frameworks.sh */,
-				34290106EA9D561F1F224176E46CB385 /* Pods-NBLMessageBox_Example-Info.plist */,
-				20594EFE41C7E5C8D6D069686430B4E9 /* Pods-NBLMessageBox_Example-umbrella.h */,
-				67D5782CCF8EE7CFC2F5EEF7DB009E87 /* Pods-NBLMessageBox_Example.debug.xcconfig */,
-				E1A25FE8D947FB1D7E743E83F5AA9926 /* Pods-NBLMessageBox_Example.release.xcconfig */,
+				E5C59B1CCA1BF5E8AA35C47034E3FDBD /* Pods-NBLMessageBox_Example */,
+				C2E622CA42E012AAD700069B16B0BCB2 /* Pods-NBLMessageBox_Tests */,
 			);
-			name = "Pods-NBLMessageBox_Example";
-			path = "Target Support Files/Pods-NBLMessageBox_Example";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7053B8C407FE1C68344362348AF5BB56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F46975540D305C37FF4BD90C19B9ABB /* NBLMessageBox.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -201,13 +180,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C2E622CA42E012AAD700069B16B0BCB2 /* Pods-NBLMessageBox_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B05CEF5572F3831D9946BA941CBD7E /* Pods-NBLMessageBox_Tests.modulemap */,
+				0C1EEB570E3060F7F69B45884A3BDB41 /* Pods-NBLMessageBox_Tests-acknowledgements.markdown */,
+				B7F324E23A09915D86D1DB5AF84EB821 /* Pods-NBLMessageBox_Tests-acknowledgements.plist */,
+				00C8930882FF8CFD444EB0EAADEEEC88 /* Pods-NBLMessageBox_Tests-dummy.m */,
+				82F4C6FE9DB5A4F1C96E3EC873F061EF /* Pods-NBLMessageBox_Tests-Info.plist */,
+				8C485E0433068E5494EE305FC85BDD06 /* Pods-NBLMessageBox_Tests-umbrella.h */,
+				F2B8ED10124192A08A9CB4FBBBE44B10 /* Pods-NBLMessageBox_Tests.debug.xcconfig */,
+				FA2474B9131DB426A6560B3A9C6467AB /* Pods-NBLMessageBox_Tests.release.xcconfig */,
+			);
+			name = "Pods-NBLMessageBox_Tests";
+			path = "Target Support Files/Pods-NBLMessageBox_Tests";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				39DE9D966CF23D47F3C47CED085A8342 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E67E3A6C007DC0255C7608B0A3F8CC93 /* Products */,
+				D4937601EB3BB12845788FF4159DEE55 /* Products */,
 				41CC4E0134007BD59EEE40DB17670AF1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -220,120 +215,144 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA9D61EF5C86E91ABE49EB3D09D7C2A4 /* Pods-NBLMessageBox_Tests */ = {
+		D4937601EB3BB12845788FF4159DEE55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C43B19983FE09CEBB06C21574BF25208 /* Pods-NBLMessageBox_Tests.modulemap */,
-				91B215DF3FE7B4B4A4E94413A4CB092E /* Pods-NBLMessageBox_Tests-acknowledgements.markdown */,
-				10362E7756E7FDE87E2E6E6EEE1EFFF9 /* Pods-NBLMessageBox_Tests-acknowledgements.plist */,
-				6FFFEE1A931386E982AA15D8C00BAA0D /* Pods-NBLMessageBox_Tests-dummy.m */,
-				1EDD63321FEA882909AD5C825B60E985 /* Pods-NBLMessageBox_Tests-Info.plist */,
-				705F9875A3DF1E0E003D54937B2B7B0F /* Pods-NBLMessageBox_Tests-umbrella.h */,
-				F303141955E571DF49352C8576015BCD /* Pods-NBLMessageBox_Tests.debug.xcconfig */,
-				1C7BA7E02B60117197D7A415BA48DD76 /* Pods-NBLMessageBox_Tests.release.xcconfig */,
-			);
-			name = "Pods-NBLMessageBox_Tests";
-			path = "Target Support Files/Pods-NBLMessageBox_Tests";
-			sourceTree = "<group>";
-		};
-		E67E3A6C007DC0255C7608B0A3F8CC93 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				619C10D7130DAEB59F66863D0C44BA70 /* NBLMessageBox.bundle */,
-				899A981E1D18ABF802FB91A7D8F464C7 /* NBLMessageBox.framework */,
-				2FF0850CAA02281989803B3AD1C546B9 /* Pods_NBLMessageBox_Example.framework */,
-				17BFF246B0885A5CEEE1204303AEDE46 /* Pods_NBLMessageBox_Tests.framework */,
+				D06C75068520DF9AA2B29653988B571B /* NBLMessageBox.bundle */,
+				2C5EDD59DDD14B706F6E6DD0BF33F7EC /* NBLMessageBox.framework */,
+				CF7765E9BD13D4FC582D4034AF370BA2 /* Pods_NBLMessageBox_Example.framework */,
+				E485C39109429EC12F0A4847C23A39BF /* Pods_NBLMessageBox_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F376373E767F1F4BF518DD55C96C0E5F /* Pod */ = {
+		D602B64260FA806D8287AFCA6ED0829B /* NBLMessageBox */ = {
 			isa = PBXGroup;
 			children = (
-				418B331B633A23679030E74696EFB26B /* LICENSE */,
-				3ABAC264975309666EF01E3A8AE24DFE /* NBLMessageBox.podspec */,
-				95395D306327236866CBAD222ADBA3C1 /* README.md */,
+				F707F663E132A077941B9A6093E32E25 /* NBLMessageBox.h */,
+				416E61A6C1F843828BF71EBBB1232696 /* NBLMessageBox.m */,
+				FA0622219657739F478A5AFC07013BD3 /* NBLMessageBoxHeader.h */,
+				2297C2BAD1C5839867B0D768561FD16F /* Pod */,
+				7053B8C407FE1C68344362348AF5BB56 /* Resources */,
+				41B98F58429A466F0CE493DF375064C7 /* Support Files */,
 			);
-			name = Pod;
+			name = NBLMessageBox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E5C59B1CCA1BF5E8AA35C47034E3FDBD /* Pods-NBLMessageBox_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EE5682283B727D7C9AD92B172B3A5E38 /* Pods-NBLMessageBox_Example.modulemap */,
+				CABE4C7D68FF77E20566853E58D7E90B /* Pods-NBLMessageBox_Example-acknowledgements.markdown */,
+				C3F87441573BE8096AB9A21E5DDD577B /* Pods-NBLMessageBox_Example-acknowledgements.plist */,
+				8BD00D176CBB09430A8F9689881A7609 /* Pods-NBLMessageBox_Example-dummy.m */,
+				97A2F9A23A7F491352015F8511E93C0F /* Pods-NBLMessageBox_Example-frameworks.sh */,
+				47BD0C961159A4F07C2404F92ABDD0D0 /* Pods-NBLMessageBox_Example-Info.plist */,
+				769843D4A44B83B066E1675E0A1B1051 /* Pods-NBLMessageBox_Example-umbrella.h */,
+				3A8B55271D1B262CD751B2F524C3CC3E /* Pods-NBLMessageBox_Example.debug.xcconfig */,
+				3FF29E177A713B7F4E1B4F18C009DAD0 /* Pods-NBLMessageBox_Example.release.xcconfig */,
+			);
+			name = "Pods-NBLMessageBox_Example";
+			path = "Target Support Files/Pods-NBLMessageBox_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8B4A987E018626F64AF3F9814A348538 /* Headers */ = {
+		756221BFCB617F3B0E9922471DC0174C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0063589FEF7365D5F76B29836205F9E1 /* NBLMessageBox-umbrella.h in Headers */,
-				622ABF444AE14D7CA48B0F88454E5C24 /* NBLMessageBox.h in Headers */,
-				95D2A78C081336683C10C23112581FC1 /* NBLMessageBoxHeader.h in Headers */,
+				C23D1FD30CD07E0B28C9F9EBF740F3C9 /* Pods-NBLMessageBox_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D846AC63002E387F95F711E92EF38CFF /* Headers */ = {
+		E16EC1CCA071FEEEABE934214FB8C3DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				972593B0B7B4CA2A28E33EA9EA8B053F /* Pods-NBLMessageBox_Tests-umbrella.h in Headers */,
+				5A3DE60AC4991B125E6B01B3965607F8 /* NBLMessageBox-umbrella.h in Headers */,
+				353B513D6A579E6F79CD9613F3A73FAA /* NBLMessageBox.h in Headers */,
+				BD41C277B1A8CDCC290412A4F5A30A3E /* NBLMessageBoxHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1100953D8C297B44B2A64FE408AE8D5 /* Headers */ = {
+		FFC835EBD552331EC6B88C00BBAD83B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78EBE261CF3DB744A03F930DEC279051 /* Pods-NBLMessageBox_Example-umbrella.h in Headers */,
+				5573CA158365E6B51488CFDBE9A92CD2 /* Pods-NBLMessageBox_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4D98298CF3DEB9DFFE99791792691535 /* NBLMessageBox */ = {
+		2B3C3C614D003C3B28F21533A81D297E /* NBLMessageBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 641ADDB5D9935A06CB42F453DFC43130 /* Build configuration list for PBXNativeTarget "NBLMessageBox" */;
+			buildConfigurationList = 034AE993060C59792DA2C7754F708F35 /* Build configuration list for PBXNativeTarget "NBLMessageBox" */;
 			buildPhases = (
-				8B4A987E018626F64AF3F9814A348538 /* Headers */,
-				15B1651316922A7C068E298047BA098E /* Sources */,
-				947AB2C1BF89EFC8CAEB89B877AD71C9 /* Frameworks */,
-				BA6461481056E62AB2028727638876CF /* Resources */,
+				E16EC1CCA071FEEEABE934214FB8C3DB /* Headers */,
+				D26CFB52F878A8B428AEBAC21D6FC3AF /* Sources */,
+				5ABCEE264E09EC8E9C73735A2D25C27F /* Frameworks */,
+				391258CF5071F210C1EAE4A2E0552976 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DFFB2EACB1BB5ADC02EE5E7CF1D981B8 /* PBXTargetDependency */,
+				5E516F10C7C5382BCBF3A591CDDCF30C /* PBXTargetDependency */,
 			);
 			name = NBLMessageBox;
 			productName = NBLMessageBox;
-			productReference = 899A981E1D18ABF802FB91A7D8F464C7 /* NBLMessageBox.framework */;
+			productReference = 2C5EDD59DDD14B706F6E6DD0BF33F7EC /* NBLMessageBox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D1B127F34A9A6C09CC4A71AC9888ED49 /* Pods-NBLMessageBox_Example */ = {
+		408541F09B421848180605C6F0E4448C /* Pods-NBLMessageBox_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C56C839B9C3A7C2B651FF69558C55CA /* Build configuration list for PBXNativeTarget "Pods-NBLMessageBox_Example" */;
+			buildConfigurationList = 9C5A257BE57DCDBD0BEF44335C53B7DD /* Build configuration list for PBXNativeTarget "Pods-NBLMessageBox_Example" */;
 			buildPhases = (
-				F1100953D8C297B44B2A64FE408AE8D5 /* Headers */,
-				2B017E051013D7B30C55B59EEAE2A3AC /* Sources */,
-				3DD7518B29CA69DE8A8C405E2C441877 /* Frameworks */,
-				01FEA70FF1AA99A93D0B7494F5DE1121 /* Resources */,
+				FFC835EBD552331EC6B88C00BBAD83B5 /* Headers */,
+				DA3398167FB7789363DAD2856B40C6CB /* Sources */,
+				D5E22F640384CD97A495682F7DC43A5F /* Frameworks */,
+				ECCA220A233A9D93615A9720A49763C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7D4A6FDB36C02009CFA63F47C62C0769 /* PBXTargetDependency */,
+				501D8050FD2C378A396072D915A5B28B /* PBXTargetDependency */,
 			);
 			name = "Pods-NBLMessageBox_Example";
 			productName = "Pods-NBLMessageBox_Example";
-			productReference = 2FF0850CAA02281989803B3AD1C546B9 /* Pods_NBLMessageBox_Example.framework */;
+			productReference = CF7765E9BD13D4FC582D4034AF370BA2 /* Pods_NBLMessageBox_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F655F935ED5A84C2F18A5BA28BB63C29 /* NBLMessageBox-NBLMessageBox */ = {
+		79FFA8E319AF6A1AB2FB9F103E4602BE /* Pods-NBLMessageBox_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED5F487905AF0E3F05B1776CF6056644 /* Build configuration list for PBXNativeTarget "NBLMessageBox-NBLMessageBox" */;
+			buildConfigurationList = 4D58E3F7ED53C3633C3761B80A55ED37 /* Build configuration list for PBXNativeTarget "Pods-NBLMessageBox_Tests" */;
 			buildPhases = (
-				10C0C96B1437BC03214BA3DBB0765715 /* Sources */,
-				06DCF6EAEC69F55B8610E4F6F195A68C /* Frameworks */,
-				351CFA1DED97F58405CE8E308A6B6EA3 /* Resources */,
+				756221BFCB617F3B0E9922471DC0174C /* Headers */,
+				63EAFBAFA7B15419FAD07DAEE0EED02A /* Sources */,
+				A7567F3E42F64961DEC3131CE28E012A /* Frameworks */,
+				CD761307339C9AD867559790EF6DBB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D582CC0FAED4BEA7903ADD7C6657FE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-NBLMessageBox_Tests";
+			productName = "Pods-NBLMessageBox_Tests";
+			productReference = E485C39109429EC12F0A4847C23A39BF /* Pods_NBLMessageBox_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A05E5292116AB00110FF2C575B47E11 /* NBLMessageBox-NBLMessageBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2541693BCE0A2000426922C3CE67AA1A /* Build configuration list for PBXNativeTarget "NBLMessageBox-NBLMessageBox" */;
+			buildPhases = (
+				613AF6408C578B8AA719B15E88B83641 /* Sources */,
+				B19451C9881CF5DFE31A25A8A53D588A /* Frameworks */,
+				E344D15CB9E5B6A08A7BAAB521EA5640 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -341,27 +360,8 @@
 			);
 			name = "NBLMessageBox-NBLMessageBox";
 			productName = "NBLMessageBox-NBLMessageBox";
-			productReference = 619C10D7130DAEB59F66863D0C44BA70 /* NBLMessageBox.bundle */;
+			productReference = D06C75068520DF9AA2B29653988B571B /* NBLMessageBox.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		F7BD45334A73015375C33ED3E21A7C48 /* Pods-NBLMessageBox_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FACA152402634919619AD006D4851CE0 /* Build configuration list for PBXNativeTarget "Pods-NBLMessageBox_Tests" */;
-			buildPhases = (
-				D846AC63002E387F95F711E92EF38CFF /* Headers */,
-				417A3B47E956E6F0905FA36964965819 /* Sources */,
-				CAD8C461394893A6CA1E6D3673A1E748 /* Frameworks */,
-				0085B45542CCA8287B78C98A101533F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F93C93AC4AA4EEA39DB04CCF5537A8B3 /* PBXTargetDependency */,
-			);
-			name = "Pods-NBLMessageBox_Tests";
-			productName = "Pods-NBLMessageBox_Tests";
-			productReference = 17BFF246B0885A5CEEE1204303AEDE46 /* Pods_NBLMessageBox_Tests.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -369,8 +369,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -380,111 +380,145 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E67E3A6C007DC0255C7608B0A3F8CC93 /* Products */;
+			productRefGroup = D4937601EB3BB12845788FF4159DEE55 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D98298CF3DEB9DFFE99791792691535 /* NBLMessageBox */,
-				F655F935ED5A84C2F18A5BA28BB63C29 /* NBLMessageBox-NBLMessageBox */,
-				D1B127F34A9A6C09CC4A71AC9888ED49 /* Pods-NBLMessageBox_Example */,
-				F7BD45334A73015375C33ED3E21A7C48 /* Pods-NBLMessageBox_Tests */,
+				2B3C3C614D003C3B28F21533A81D297E /* NBLMessageBox */,
+				8A05E5292116AB00110FF2C575B47E11 /* NBLMessageBox-NBLMessageBox */,
+				408541F09B421848180605C6F0E4448C /* Pods-NBLMessageBox_Example */,
+				79FFA8E319AF6A1AB2FB9F103E4602BE /* Pods-NBLMessageBox_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0085B45542CCA8287B78C98A101533F2 /* Resources */ = {
+		391258CF5071F210C1EAE4A2E0552976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B998C767574045F9A610D86E62BF50E5 /* NBLMessageBox.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD761307339C9AD867559790EF6DBB00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01FEA70FF1AA99A93D0B7494F5DE1121 /* Resources */ = {
+		E344D15CB9E5B6A08A7BAAB521EA5640 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9A062D815EF289480956DA3F1343EE /* NBLMessageBox.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		351CFA1DED97F58405CE8E308A6B6EA3 /* Resources */ = {
+		ECCA220A233A9D93615A9720A49763C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9E23A1C9EBAB8DE5D7A426E20466C84 /* NBLMessageBox.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA6461481056E62AB2028727638876CF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C06DD2B1764A8E8745CCE983DEA5E157 /* NBLMessageBox.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		10C0C96B1437BC03214BA3DBB0765715 /* Sources */ = {
+		613AF6408C578B8AA719B15E88B83641 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15B1651316922A7C068E298047BA098E /* Sources */ = {
+		63EAFBAFA7B15419FAD07DAEE0EED02A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F62831154960B6FE6B77D8CA1369F49E /* NBLMessageBox-dummy.m in Sources */,
-				5F24453E19195874AE50177A32A17E8A /* NBLMessageBox.m in Sources */,
+				DBEB7777298F2696B2409108D655A5EA /* Pods-NBLMessageBox_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B017E051013D7B30C55B59EEAE2A3AC /* Sources */ = {
+		D26CFB52F878A8B428AEBAC21D6FC3AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				106CEA04E09868911C0EB1B9E295B146 /* Pods-NBLMessageBox_Example-dummy.m in Sources */,
+				CA1E428BBA3B25F3C6BE8704D89B6B48 /* NBLMessageBox-dummy.m in Sources */,
+				CE9CB525A8E5AB430750E02C1B10461E /* NBLMessageBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		417A3B47E956E6F0905FA36964965819 /* Sources */ = {
+		DA3398167FB7789363DAD2856B40C6CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C75840486FE45E7D37458C9B83F28DF /* Pods-NBLMessageBox_Tests-dummy.m in Sources */,
+				B0100C04B6617A1FC31ABA0D7323297D /* Pods-NBLMessageBox_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7D4A6FDB36C02009CFA63F47C62C0769 /* PBXTargetDependency */ = {
+		501D8050FD2C378A396072D915A5B28B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NBLMessageBox;
-			target = 4D98298CF3DEB9DFFE99791792691535 /* NBLMessageBox */;
-			targetProxy = 45A47A6A37D2406B6A94C8FE9F8C0B89 /* PBXContainerItemProxy */;
+			target = 2B3C3C614D003C3B28F21533A81D297E /* NBLMessageBox */;
+			targetProxy = E75B4C75C1AE70CB4D69F3177EDD5235 /* PBXContainerItemProxy */;
 		};
-		DFFB2EACB1BB5ADC02EE5E7CF1D981B8 /* PBXTargetDependency */ = {
+		5E516F10C7C5382BCBF3A591CDDCF30C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "NBLMessageBox-NBLMessageBox";
-			target = F655F935ED5A84C2F18A5BA28BB63C29 /* NBLMessageBox-NBLMessageBox */;
-			targetProxy = D59E928CE70BFA44B31563D6EDE2EE3B /* PBXContainerItemProxy */;
+			target = 8A05E5292116AB00110FF2C575B47E11 /* NBLMessageBox-NBLMessageBox */;
+			targetProxy = 910A39AF2C546FDEB5C68C1311E1844D /* PBXContainerItemProxy */;
 		};
-		F93C93AC4AA4EEA39DB04CCF5537A8B3 /* PBXTargetDependency */ = {
+		7D582CC0FAED4BEA7903ADD7C6657FE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NBLMessageBox_Example";
-			target = D1B127F34A9A6C09CC4A71AC9888ED49 /* Pods-NBLMessageBox_Example */;
-			targetProxy = 64D531C1FEC86359B481AA19F34370A5 /* PBXContainerItemProxy */;
+			target = 408541F09B421848180605C6F0E4448C /* Pods-NBLMessageBox_Example */;
+			targetProxy = 5B866B6A19B9CBC7D7AB75F9A4A462C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AABD1E3E3BAD7E423F406711333F086 /* Release */ = {
+		09AF4477361AD59CB416612A868F974C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3A9F2D33784CF314B96F1CEA511798 /* NBLMessageBox.xcconfig */;
+			baseConfigurationReference = 3FF29E177A713B7F4E1B4F18C009DAD0 /* Pods-NBLMessageBox_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		207F665F58F8012A902D677CB7DF9FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B684AB39872AD4FA5A2FB93E22E5493C /* NBLMessageBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -513,9 +547,9 @@
 			};
 			name = Release;
 		};
-		6A4769C829554180757FE851E53F319A /* Debug */ = {
+		81DC573B4551418AFA2CDF88373CBF9D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67D5782CCF8EE7CFC2F5EEF7DB009E87 /* Pods-NBLMessageBox_Example.debug.xcconfig */;
+			baseConfigurationReference = FA2474B9131DB426A6560B3A9C6467AB /* Pods-NBLMessageBox_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -527,12 +561,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NBLMessageBox_Tests/Pods-NBLMessageBox_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NBLMessageBox_Tests/Pods-NBLMessageBox_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -541,14 +575,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		6BEB5638283C9F632DB7DA90722C1FA2 /* Debug */ = {
+		8BF8BEE1BDEF72D5E0C71D60B75F553B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3A9F2D33784CF314B96F1CEA511798 /* NBLMessageBox.xcconfig */;
+			baseConfigurationReference = B684AB39872AD4FA5A2FB93E22E5493C /* NBLMessageBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NBLMessageBox";
@@ -560,7 +595,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -686,43 +721,9 @@
 			};
 			name = Debug;
 		};
-		993307B884E4BF9B4F615FE032C5FAA9 /* Release */ = {
+		A755AC38BF662A929D25AD217FAA6979 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1A25FE8D947FB1D7E743E83F5AA9926 /* Pods-NBLMessageBox_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B9689797C6E780538428A9BD28AA848F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3A9F2D33784CF314B96F1CEA511798 /* NBLMessageBox.xcconfig */;
+			baseConfigurationReference = B684AB39872AD4FA5A2FB93E22E5493C /* NBLMessageBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NBLMessageBox";
@@ -734,11 +735,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		C8D2DBD8D2C9D724262329196BEBAA37 /* Debug */ = {
+		BC95F22B33A4EC3C5A0473F57450702D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3A9F2D33784CF314B96F1CEA511798 /* NBLMessageBox.xcconfig */;
+			baseConfigurationReference = B684AB39872AD4FA5A2FB93E22E5493C /* NBLMessageBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -766,9 +767,42 @@
 			};
 			name = Debug;
 		};
-		E92EDE510E3CC16ADD4B69F04498C2AE /* Debug */ = {
+		DD31B16EE7F7E5B2183A8243F45C7F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F303141955E571DF49352C8576015BCD /* Pods-NBLMessageBox_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3A8B55271D1B262CD751B2F524C3CC3E /* Pods-NBLMessageBox_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NBLMessageBox_Example/Pods-NBLMessageBox_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F097E5F1CF6501CD9FFFFE3808051A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B8ED10124192A08A9CB4FBBBE44B10 /* Pods-NBLMessageBox_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -799,43 +833,27 @@
 			};
 			name = Debug;
 		};
-		EFDB65E78B8E2464DB40E0F13EAB8A4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C7BA7E02B60117197D7A415BA48DD76 /* Pods-NBLMessageBox_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NBLMessageBox_Tests/Pods-NBLMessageBox_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NBLMessageBox_Tests/Pods-NBLMessageBox_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		034AE993060C59792DA2C7754F708F35 /* Build configuration list for PBXNativeTarget "NBLMessageBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC95F22B33A4EC3C5A0473F57450702D /* Debug */,
+				207F665F58F8012A902D677CB7DF9FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2541693BCE0A2000426922C3CE67AA1A /* Build configuration list for PBXNativeTarget "NBLMessageBox-NBLMessageBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A755AC38BF662A929D25AD217FAA6979 /* Debug */,
+				8BF8BEE1BDEF72D5E0C71D60B75F553B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -845,38 +863,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		641ADDB5D9935A06CB42F453DFC43130 /* Build configuration list for PBXNativeTarget "NBLMessageBox" */ = {
+		4D58E3F7ED53C3633C3761B80A55ED37 /* Build configuration list for PBXNativeTarget "Pods-NBLMessageBox_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8D2DBD8D2C9D724262329196BEBAA37 /* Debug */,
-				0AABD1E3E3BAD7E423F406711333F086 /* Release */,
+				F097E5F1CF6501CD9FFFFE3808051A5E /* Debug */,
+				81DC573B4551418AFA2CDF88373CBF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C56C839B9C3A7C2B651FF69558C55CA /* Build configuration list for PBXNativeTarget "Pods-NBLMessageBox_Example" */ = {
+		9C5A257BE57DCDBD0BEF44335C53B7DD /* Build configuration list for PBXNativeTarget "Pods-NBLMessageBox_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A4769C829554180757FE851E53F319A /* Debug */,
-				993307B884E4BF9B4F615FE032C5FAA9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED5F487905AF0E3F05B1776CF6056644 /* Build configuration list for PBXNativeTarget "NBLMessageBox-NBLMessageBox" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6BEB5638283C9F632DB7DA90722C1FA2 /* Debug */,
-				B9689797C6E780538428A9BD28AA848F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FACA152402634919619AD006D4851CE0 /* Build configuration list for PBXNativeTarget "Pods-NBLMessageBox_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E92EDE510E3CC16ADD4B69F04498C2AE /* Debug */,
-				EFDB65E78B8E2464DB40E0F13EAB8A4F /* Release */,
+				DD31B16EE7F7E5B2183A8243F45C7F9F /* Debug */,
+				09AF4477361AD59CB416612A868F974C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
