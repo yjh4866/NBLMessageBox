@@ -26,4 +26,7 @@ typedef NS_ENUM(NSUInteger, NBLMessageBoxStyle) {
 - (NBLMessageBox *)setStyle:(NBLMessageBoxStyle)style;
 - (NBLMessageBox *)closeWithDelay:(NSTimeInterval)delay;
 
++ (void)showAlertWithTitle:(NSString *)title andMessage:(NSString *)message
+             beforePresent:(void(^)(UIAlertController *))beforePresent;
+
 @end

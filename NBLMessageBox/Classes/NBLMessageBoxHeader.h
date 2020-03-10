@@ -15,9 +15,11 @@
 #define NBLShowLoading        [NBLMessageBox showLoading]
 #define NBLCloseLoading       [NBLMessageBox close]
 
-#define NBLShowSuccessMsg(msg) [[NBLMessageBox showMessage:msg] closeWithDelay:1]
-#define NBLShowErrorMsg(msg)   [[NBLMessageBox showMessage:msg] closeWithDelay:1]
+#define NBLShowMessage(msg) [[NBLMessageBox showMessage:msg] closeWithDelay:1]
+#define NBLShowMessageAndDelay(msg, delay) [[NBLMessageBox showMessage:msg] closeWithDelay:delay]
 #define NBLShowError(error)    NBLShowErrorMsg(error.localizedDescription)
+
+#define NBLShowAlertMessage(title, msg) [NBLMessageBox showAlertWithTitle:title andMessage:msg beforePresent:nil]
 
 
 #endif /* NBLMessageBoxHeader_h */

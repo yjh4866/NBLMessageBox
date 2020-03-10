@@ -29,7 +29,8 @@
 
 - (IBAction)clickShowMessage:(id)sender
 {
-    [NBLShowSuccessMsg(@"提示了这个信息") setStyle:NBLMessageBoxStyle_Dark];
+    [NBLShowMessage(@"提示了这个信息") setStyle:NBLMessageBoxStyle_Dark];
+    NBLShowAlertMessage(@"标题", @"内容");
 }
 - (IBAction)clickShowLoading:(id)sender
 {
