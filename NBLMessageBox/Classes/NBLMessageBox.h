@@ -17,8 +17,11 @@ typedef NS_ENUM(NSUInteger, NBLMessageBoxStyle) {
 @interface NBLMessageBox : UIView
 
 + (NBLMessageBox *)showLoading;
++ (NBLMessageBox *)showLoadingOn:(UIView *)superView;
 + (NBLMessageBox *)showMessage:(NSString *)content;
++ (NBLMessageBox *)showMessage:(NSString *)content on:(UIView *)superView;
 + (NBLMessageBox *)showLoadingWithMessage:(NSString *)content;
++ (NBLMessageBox *)showLoadingWithMessage:(NSString *)content on:(UIView *)superView;
 
 + (void)close;
 + (void)closeWithDelay:(NSTimeInterval)delay;

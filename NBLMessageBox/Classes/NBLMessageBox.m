@@ -43,13 +43,21 @@ static NBLMessageBox *g_messageBox = nil;
 
 + (NBLMessageBox *)showLoading
 {
-    NBLMessageBox *messageBox = [NBLMessageBox showMessageBox];
+    return [NBLMessageBox showLoadingOn:nil];
+}
++ (NBLMessageBox *)showLoadingOn:(UIView *)superView
+{
+    NBLMessageBox *messageBox = [NBLMessageBox showMessageBox:superView];
     [messageBox.comboBoxView removeFromSuperview];
     return messageBox;
 }
 + (NBLMessageBox *)showMessage:(NSString *)content
 {
-    NBLMessageBox *messageBox = [NBLMessageBox showMessageBox];
+    return [NBLMessageBox showMessage:content on:nil];
+}
++ (NBLMessageBox *)showMessage:(NSString *)content on:(UIView *)superView
+{
+    NBLMessageBox *messageBox = [NBLMessageBox showMessageBox:superView];
     [messageBox.loadingBoxView removeFromSuperview];
     // 显示文本
     messageBox.labelMessage.text = content;
@@ -60,7 +68,11 @@ static NBLMessageBox *g_messageBox = nil;
 }
 + (NBLMessageBox *)showLoadingWithMessage:(NSString *)content
 {
-    NBLMessageBox *messageBox = [NBLMessageBox showMessageBox];
+    return [NBLMessageBox showLoadingWithMessage:content on:nil];
+}
++ (NBLMessageBox *)showLoadingWithMessage:(NSString *)content on:(UIView *)superView
+{
+    NBLMessageBox *messageBox = [NBLMessageBox showMessageBox:superView];
     [messageBox.loadingBoxView removeFromSuperview];
     // 显示文本
     messageBox.labelMessage.text = content;
@@ -119,7 +131,7 @@ static NBLMessageBox *g_messageBox = nil;
 
 #pragma mark - Private
 
-+ (NBLMessageBox *)showMessageBox
++ (NBLMessageBox *)showMessageBox:(UIView *)superView
 {
     if (g_messageBox) {
         [g_messageBox removeFromSuperview];
@@ -127,7 +139,7 @@ static NBLMessageBox *g_messageBox = nil;
     // 加载对话框
     NSBundle *bundle = [NSBundle bundleForClass:NBLMessageBox.class];
     g_messageBox = [bundle loadNibNamed:@"NBLMessageBox.bundle/NBLMessageBox" owner:nil options:nil][0];
-    [[NBLMessageBox frontWindow] addSubview:g_messageBox];
+    [superView?:[NBLMessageBox frontWindow] addSubview:g_messageBox];
     g_messageBox.frame = CGRectMake(0, 0, g_messageBox.superview.frame.size.width, g_messageBox.superview.frame.size.height);
     //
     return g_messageBox;

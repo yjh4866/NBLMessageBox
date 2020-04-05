@@ -17,7 +17,7 @@
 
 #define NBLShowMessage(msg) [[NBLMessageBox showMessage:msg] closeWithDelay:1]
 #define NBLShowMessageAndDelay(msg, delay) [[NBLMessageBox showMessage:msg] closeWithDelay:delay]
-#define NBLShowError(error)    NBLShowErrorMsg(error.localizedDescription)
+#define NBLShowError(error)    NBLShowMessage(error.localizedDescription)
 
 #define NBLShowAlertMessage(title, msg) [NBLMessageBox showAlertWithTitle:title andMessage:msg beforePresent:nil]
 
