@@ -1,5 +1,5 @@
 PODS:
-  - NBLMessageBox (0.1.5)
+  - NBLMessageBox (0.1.6)
 
 DEPENDENCIES:
   - NBLMessageBox (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NBLMessageBox: 2a6a5db92734c7893276cb15b22578448c8cffab
+  NBLMessageBox: b94ad402e26bc3af5b34ccffe095c0cfebfc2568
 
 PODFILE CHECKSUM: aa81c62ad2a1c6e16cec95252341fd368abd962d
 
-COCOAPODS: 1.9.0
+COCOAPODS: 1.10.0

@@ -16,6 +16,8 @@ typedef NS_ENUM(NSUInteger, NBLMessageBoxStyle) {
 
 @interface NBLMessageBox : UIView
 
+@property (weak, nonatomic) IBOutlet UILabel *labelMessage;
+
 + (NBLMessageBox *)showLoading;
 + (NBLMessageBox *)showLoadingOn:(UIView *)superView;
 + (NBLMessageBox *)showMessage:(NSString *)content;

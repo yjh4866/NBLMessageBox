@@ -14,7 +14,6 @@ static NBLMessageBox *g_messageBox = nil;
 @property (weak, nonatomic) IBOutlet UIView *comboBoxView;
 @property (weak, nonatomic) IBOutlet UIView *loadingBoxView;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityView;
-@property (weak, nonatomic) IBOutlet UILabel *labelMessage;
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraintMessageTop;
 @end
