@@ -115,18 +115,6 @@ static NBLMessageBox *g_messageBox = nil;
     return self;
 }
 
-+ (void)showAlertWithTitle:(NSString *)title andMessage:(NSString *)message
-             beforePresent:(void(^)(UIAlertController *))beforePresent
-{
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
-    if (beforePresent) {
-        beforePresent(alertController);
-    } else {
-        [alertController addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil]];
-    }
-    [[NBLMessageBox frontWindow].rootViewController presentViewController:alertController animated:YES completion:nil];
-}
-
 
 #pragma mark - Private
 

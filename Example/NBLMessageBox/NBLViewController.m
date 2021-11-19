@@ -35,6 +35,11 @@
 - (IBAction)clickShowLoading:(id)sender
 {
     [[NBLShowLoadingWithMsg(@"登录中...") setStyle:NBLMessageBoxStyle_Dark] closeWithDelay:1];
+    [NBLAlert showAlertOn:nil withTitle:@"标题" message:@"内容" andOKTitle:@"OK" callbackOK:^{
+        NSLog(@"Click OK Button!");
+    } cancelTitle:@"Cancel" callbackCancel:^{
+        NSLog(@"ClickCancel Button!");
+    }];
 }
 
 @end

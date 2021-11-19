@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NBLAlert.h"
 #import "NBLMessageBox.h"
 #import "NBLMessageBoxHeader.h"
 

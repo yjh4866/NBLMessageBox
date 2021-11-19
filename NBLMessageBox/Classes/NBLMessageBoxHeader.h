@@ -9,7 +9,7 @@
 #define NBLMessageBoxHeader_h
 
 #import "NBLMessageBox.h"
-
+#import "NBLAlert.h"
 
 #define NBLShowLoadingWithMsg(msg) [NBLMessageBox showLoadingWithMessage:msg]
 #define NBLShowLoading        [NBLMessageBox showLoading]
@@ -19,7 +19,7 @@
 #define NBLShowMessageAndDelay(msg, delay) [[NBLMessageBox showMessage:msg] closeWithDelay:delay]
 #define NBLShowError(error)    NBLShowMessage(error.localizedDescription)
 
-#define NBLShowAlertMessage(title, msg) [NBLMessageBox showAlertWithTitle:title andMessage:msg beforePresent:nil]
+#define NBLShowAlertMessage(title, msg) [NBLAlert showAlertOn:nil withTitle:title andMessage:msg beforePresent:nil]
 
 
 #endif /* NBLMessageBoxHeader_h */

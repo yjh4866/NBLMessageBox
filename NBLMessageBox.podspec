@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NBLMessageBox'
-  s.version          = '0.1.6'
-  s.summary          = '用于给用户提示信息。Show box to tell user message.'
+  s.version          = '0.1.7'
+  s.summary          = '给用户提示信息窗口。Show box to tell user message.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-给用户提示信息的窗口，包括Loading框。Show box to tell user message.
+给用户提示信息的窗口，包括Loading框和UIAlertController。Show box to tell user message.
                        DESC
 
-  s.homepage         = 'https://github.com/yjh4866/NBLMessageBox'
+  s.homepage         = 'https://gitee.com/yjh4866/NBLMessageBox'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '杨建红' => 'yjh4866@163.com' }
-  s.source           = { :git => 'https://github.com/yjh4866/NBLMessageBox.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitee.com/yjh4866/NBLMessageBox.git', :tag => s.version.to_s }
   s.social_media_url = 'https://blog.csdn.net/yjh4866'
 
   s.ios.deployment_target = '9.0'
